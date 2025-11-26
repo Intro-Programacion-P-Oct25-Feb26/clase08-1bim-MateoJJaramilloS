@@ -41,8 +41,7 @@ public class Ejemplo06 {
         System.out.println("Ingrese el limite de la tabla");
         limite = entrada.nextInt();// 2
 
-        if ((tabla % 2 != 0) && (limite % 2 != 0)) {
-        }else{
+        if ((tabla %2!= 0) || (limite %2!= 0)) {
             tabla = 10;
             limite = 20;
         }
