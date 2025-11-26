@@ -18,17 +18,17 @@ public class Ejemplo03 {
         Scanner entrada = new Scanner(System.in);
         entrada.useLocale(Locale.US);
         String cadenaFinal = "";
-        double nota;
+        double notita;
         boolean bandera = true;
         int salida;
         double sumaNotas = 0;
         
         do {
             System.out.println("Ingrese calificaciones");
-            nota = entrada.nextDouble();
-            sumaNotas = sumaNotas + nota;
+            notita = entrada.nextDouble();
+            sumaNotas = sumaNotas + notita;
             cadenaFinal = String.format("%s%.2f\n", cadenaFinal, 
-                    nota);
+                    notita);
             
             System.out.println("Ingrese (-111) si desea salir del ciclo ");
             salida = entrada.nextInt();
